@@ -1,0 +1,11 @@
+GET  http://localhost:5000/user/5e268a97e937891dd0ff1723
+###
+
+Post http://localhost:5000/user/login
+Content-Type: application/json
+{
+    "username":"akbar"  
+}
+### 
+GET  http://localhost:5000/user/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.bXViYXNoaXI.ZNIDcpWxCNYoL8oD81JM2p2694jR4RfFxAvJ-ZXsJUM
